@@ -3,6 +3,7 @@ i = 0
 while i < len(my_list):
     if my_list[i] > 0:
         print(my_list[i])
-        i = i + 1
-    else:
-        i = i + 1
+    i+=1
+
+    if my_list[i] < 0:
+        break
