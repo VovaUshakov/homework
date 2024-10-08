@@ -1,12 +1,12 @@
 def get_matrix(n, m, value):
-    matrix=[]
+    matrix = []
     for i in range(n):
         lines = []
         matrix.append(lines)
         for k in range(m):
             lines.append(value)
     print(matrix)
-    matrix=[]
+    matrix = []
     return matrix
 
 
