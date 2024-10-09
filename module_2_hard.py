@@ -1,4 +1,4 @@
-x = int(input("Скорее , води число из  первой вставки "))
+x = int(input("Скорее , вводи число из  первой вставки "))
 nambers = ''
 for i in range(1, x):
     for k in range(i + 1, x):
