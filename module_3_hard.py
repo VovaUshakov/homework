@@ -2,7 +2,7 @@ def calculate_structure_sum(structur):
     sumer = 0
     for i in structur:
         if isinstance(i, int):
-           sumer += i
+            sumer += i
         elif isinstance(i, str):
             sumer += len(i)
         elif isinstance(i, list) or isinstance(i, tuple):
@@ -15,21 +15,17 @@ def calculate_structure_sum(structur):
     return sumer
 
 
-
-
-
-
 data_structure = [
 
-[1, 2, 3],
+    [1, 2, 3],
 
-{'a': 4, 'b': 5},
+    {'a': 4, 'b': 5},
 
-(6, {'cube': 7, 'drum': 8}),
+    (6, {'cube': 7, 'drum': 8}),
 
-"Hello",
+    "Hello",
 
-((), [{(2, 'Urban', ('Urban2', 35))}])
+    ((), [{(2, 'Urban', ('Urban2', 35))}])
 
 ]
 
